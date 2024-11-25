@@ -16,5 +16,6 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 <img src="Classify.png" alt="Classify" width=600px height=250px>
 <hr>
 上传日期：2024年11月25日 22:50
+</br>
 作者：Sam iLiant（参考源项目见上述链接）
 
