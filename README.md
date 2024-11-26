@@ -14,7 +14,7 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 如果使用CUDA，需要自行配置环境变量以及安装对应版本PyTorch。MacOS或Linux参考PyTorch官网介绍。下方环境配置均有介绍。
 </br>
 
-*注意：需要自行在saved_dict目录下放置各个模型的.ckpt文件，软件才可以正常运行。*
+**注意：需要自行在saved_dict目录下放置各个模型的.ckpt文件，软件才可以正常运行。**
 
 ## 程序运行图
 
@@ -90,18 +90,18 @@ numpy<br>
 `pip install scikit-learn`<br>
 `pip install torch`<br>
 
-*注意⚠️torch版本应在PyTorch官网查看对应CUDA版本的合适版本，具体安装命令需根据官网进行安装，官网如下:*<br>
+**注意⚠️torch版本应在PyTorch官网查看对应CUDA版本的合适版本，具体安装命令需根据官网进行安装，官网链接:**
 
 <a href="https://pytorch.org" title="PyTorch官网">PyTorch官网链接</a>
 
 ## 模型训练方法<br>
-`python run.py —model TextCNN       #训练TextCNN模型的方法`<br>
-`python run.py —model TextRNN       #训练TextCNN模型的方法`<br>
-`python run.py —model TextRCNN      #训练TextCNN模型的方法`<br>
-`python run.py —model FastText      #训练TextCNN模型的方法`<br>
-`python run.py —model TextRNN_Att   #训练TextCNN模型的方法`<br>
-`python run.py —model DPCNN         #训练TextCNN模型的方法`<br>
-`python run.py —model Transformer   #训练TextCNN模型的方法`<br>
+`python run.py —model TextCNN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
+`python run.py —model TextRNN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
+`python run.py —model TextRCNN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
+`python run.py —model FastText &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
+`python run.py —model TextRNN_Att &nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
+`python run.py —model DPCNN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
+`python run.py —model Transformer &nbsp;&nbsp;#训练TextCNN模型的方法`<br>
 <br>
 
 ## 使用说明
