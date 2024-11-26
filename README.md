@@ -2,14 +2,14 @@
 
 ## 介绍
 
-程序参考GitHub开源项目：https://github.com/649453932/Chinese-Text-Classification-Pytorch<br>
+程序参考GitHub开源项目：
+<a href="https://github.com/649453932/Chinese-Text-Classification-Pytorch" title="原作者链接">原作者链接</a>
 
-<a href=“https://github.com/649453932/Chinese-Text-Classification-Pytorch” title=“原作者链接”>原作者链接</a>
+模型分析及GUI实现原理：
+<a href="https://zhuanlan.zhihu.com/p/9187712386" title="原理在这里">我的个人博客</a>
 
-我利用原作者的项目训练好模型，将模型预测结果使用GUI进行输出。模型预测准确度相对较高。
-GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需要安装sklearn,numpy等库。
-推荐使用PyCharm打开项目，运行main.py即可。
-如果使用PyCharm，需要自行配置虚拟环境，具体环境需求，在下方有介绍，请参考。
+使用原作者的项目训练好模型，将模型预测结果使用GUI进行输出。模型预测准确度相对较高。GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需要安装sklearn,numpy等库。
+推荐使用PyCharm打开项目，运行main.py即可。如果使用PyCharm，需要自行配置虚拟环境，具体环境需求，在下方有介绍，请参考。
 推荐使用安装CUDA的Nvidia计算卡设备进行模型训练。使用CPU运算，其运算时间相对较长，FastText模型可能需要40-60min进行训练。
 如果使用CUDA，需要自行配置环境变量以及安装对应版本PyTorch。MacOS或Linux参考PyTorch官网介绍。下方环境配置均有介绍。
 </br>
@@ -28,7 +28,6 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 
 ## 模型性能
 
-***
 
 ### Batch-Size
 
@@ -73,7 +72,7 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 <br>
 
 ## 训练及运行环境
-python 3.8<br>
+python 3.8.7<br>
 tensorboardX<br>
 tdqm<br>
 pytorch 1.1<br>
@@ -83,23 +82,33 @@ numpy<br>
 
 ## 训练环境安装方法<br>
 
-`pip install tensorboardX`<br>
-`pip install tqdm`<br>
-`pip install numpy`<br>
-`pip install pyqt5`<br>
-`pip install scikit-learn`<br>
-`pip install torch`<br>
+```
+pip install tqdm
+pip install pyqt5
+pip install numpy
+pip install tensorboardX
+pip install scikit-learn
+pip install torch
+```
 
 **注意⚠️torch版本应在PyTorch官网查看对应CUDA版本的合适版本，具体安装命令需根据官网进行安装，官网链接:**
 <a href="https://pytorch.org" title="PyTorch官网">PyTorch官网链接</a>
 
 ## 模型训练方法<br>
-`python run.py —model TextCNN #训练TextCNN模型的方法`<br>
-`python run.py —model TextRNN #训练TextCNN模型的方法`<br>
-`python run.py —model TextRCNN #训练TextCNN模型的方法`<br>
-`python run.py —model FastText #训练TextCNN模型的方法`<br>
-`python run.py —model TextRNN_Att #训练TextCNN模型的方法`<br>
-`python run.py —model DPCNN #训练TextCNN模型的方法`<br>
+
+小提示：
+
+<ul>
+    <li>如果是在P有Charm等IDE中，则直接打开IDE中对应的命令行窗口，按需训练模型即可</li>
+    <li>如果是使用IDLE，则需要进入项目的目录中，Windows右键进入命令提示符进行训练，Linux直接在CLI中进行目录切换，直接训练即可</li>
+</ul>
+
+`python run.py —model TextCNN #训练TextCNN模型的方法`<br><br>
+`python run.py —model TextRNN #训练TextCNN模型的方法`<br><br>
+`python run.py —model TextRCNN #训练TextCNN模型的方法`<br><br>
+`python run.py —model FastText #训练TextCNN模型的方法`<br><br>
+`python run.py —model TextRNN_Att #训练TextCNN模型的方法`<br><br>
+`python run.py —model DPCNN #训练TextCNN模型的方法`<br><br>
 `python run.py —model Transformer #训练TextCNN模型的方法`<br>
 <br>
 
