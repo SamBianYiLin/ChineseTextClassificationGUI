@@ -7,7 +7,7 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 推荐使用PyCharm打开项目，运行main.py即可。
 </br>
 注意：需要自行在saved_dict目录下放置各个模型的.ckpt文件，软件才可以正常运行。
-——
+
 ## 程序运行图
 ### 主页面如下图所示：
 </br>
@@ -17,22 +17,35 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 <img src="Graphs/Classify.png" alt="Classify" width=600px height=250px>
 <hr>
 ## 模型性能
+
 ### Batch-Size
+
 #### Batch-Size Accuracy
+
 <img src="Graphs/Batch_Size_Acc.png" alt="Batch_Size_Acc" width=470px height=340px>
+
 #### Batch-Size Loss
+
 <img src="Graphs/Batch_Size_Loss.png" alt="Batch_Size_Loss" width=470px height=340px>
 
 ### Drop Out
+
 #### Drop-Out Accuracy
+
 <img src="Graphs/Drop_Out_Acc.png" alt="Batch_Size_Acc" width=470px height=340px>
+    
 #### Drop-Out Loss
+
 <img src="Graphs/Drop_Out_Loss.png" alt="Batch_Size_Loss" width=470px height=340px>
 
 ### Random Seed
+
 #### Random-Seed Accuracy
+
 <img src="Graphs/Random_Seed_Acc.png" alt="Batch_Size_Acc" width=470px height=340px>
+    
 #### Random-Seed Loss
+
 <img src="Graphs/Random_Seed_Loss.png" alt="Batch_Size_Loss" width=470px height=340px>
 
 ### 项目中所使用的参数已是作者所测试的最佳值，模型表现为我所测试的最佳状态。
@@ -46,13 +59,13 @@ PyQt5
 sklearn
 ——
 ## 模型训练方法<br>
-`python run.py —model TextCNN #训练TextCNN模型的方法`
-`python run.py —model TextRNN #训练TextCNN模型的方法`
-`python run.py —model TextRCNN #训练TextCNN模型的方法`
-`python run.py —model FastText #训练TextCNN模型的方法`
-`python run.py —model TextRNN_Att #训练TextCNN模型的方法`
-`python run.py —model DPCNN #训练TextCNN模型的方法`
-`python run.py —model Transformer #训练TextCNN模型的方法`
+`python run.py —model TextCNN #训练TextCNN模型的方法`<br>
+`python run.py —model TextRNN #训练TextCNN模型的方法`<br>
+`python run.py —model TextRCNN #训练TextCNN模型的方法`<br>
+`python run.py —model FastText #训练TextCNN模型的方法`<br>
+`python run.py —model TextRNN_Att #训练TextCNN模型的方法`<br>
+`python run.py —model DPCNN #训练TextCNN模型的方法`<br>
+`python run.py —model Transformer #训练TextCNN模型的方法`<br>
 <br>
 ——
 ## 使用说明
