@@ -3,10 +3,10 @@
 ## 介绍
 
 程序参考GitHub开源项目：
-<a href="https://github.com/649453932/Chinese-Text-Classification-Pytorch" title="原作者链接">原作者链接</a>
+<a href="https://github.com/649453932/Chinese-Text-Classification-Pytorch" title="原作者链接" target="_blank">原作者链接</a>
 
 模型分析及GUI实现原理：
-<a href="https://zhuanlan.zhihu.com/p/9187712386" title="原理在这里">我的个人博客</a>
+<a href="https://zhuanlan.zhihu.com/p/9187712386" title="原理在这里" target="_blank">我的个人博客</a>
 
 使用原作者的项目训练好模型，将模型预测结果使用GUI进行输出。模型预测准确度相对较高。GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需要安装sklearn,numpy等库。
 推荐使用PyCharm打开项目，运行main.py即可。如果使用PyCharm，需要自行配置虚拟环境，具体环境需求，在下方有介绍，请参考。
