@@ -7,11 +7,14 @@
 <a href=“https://github.com/649453932/Chinese-Text-Classification-Pytorch” title=“原作者链接”>原作者链接</a>
 
 我利用原作者的项目训练好模型，将模型预测结果使用GUI进行输出。模型预测准确度相对较高。
-GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需要安装tensorboardX,numpy等库。
+GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需要安装sklearn,numpy等库。
 推荐使用PyCharm打开项目，运行main.py即可。
 如果使用PyCharm，需要自行配置虚拟环境，具体环境需求，在下方有介绍，请参考。
+推荐使用安装CUDA的Nvidia计算卡设备进行模型训练。使用CPU运算，其运算时间相对较长，FastText模型可能需要40-60min进行训练。
+如果使用CUDA，需要自行配置环境变量以及安装对应版本PyTorch。MacOS或Linux参考PyTorch官网介绍。下方环境配置均有介绍。
 </br>
-注意：需要自行在saved_dict目录下放置各个模型的.ckpt文件，软件才可以正常运行。
+
+*注意：需要自行在saved_dict目录下放置各个模型的.ckpt文件，软件才可以正常运行。*
 
 ## 程序运行图
 
@@ -68,6 +71,7 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 ***
 
 <br>
+
 ## 训练及运行环境
 python 3.8<br>
 tensorboardX<br>
