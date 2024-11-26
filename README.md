@@ -95,13 +95,13 @@ numpy<br>
 <a href="https://pytorch.org" title="PyTorch官网">PyTorch官网链接</a>
 
 ## 模型训练方法<br>
-`python run.py —model TextCNN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
-`python run.py —model TextRNN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
-`python run.py —model TextRCNN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
-`python run.py —model FastText &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
-`python run.py —model TextRNN_Att &nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
-`python run.py —model DPCNN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#训练TextCNN模型的方法`<br>
-`python run.py —model Transformer &nbsp;&nbsp;#训练TextCNN模型的方法`<br>
+`python run.py —model TextCNN #训练TextCNN模型的方法`<br>
+`python run.py —model TextRNN #训练TextCNN模型的方法`<br>
+`python run.py —model TextRCNN #训练TextCNN模型的方法`<br>
+`python run.py —model FastText #训练TextCNN模型的方法`<br>
+`python run.py —model TextRNN_Att #训练TextCNN模型的方法`<br>
+`python run.py —model DPCNN #训练TextCNN模型的方法`<br>
+`python run.py —model Transformer #训练TextCNN模型的方法`<br>
 <br>
 
 ## 使用说明
