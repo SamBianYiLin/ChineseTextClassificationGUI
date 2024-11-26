@@ -1,4 +1,5 @@
 # ChineseTextClassificationGUI
+
 ## 程序参考GitHub开源项目：
 
 <a href=“https://github.com/649453932/Chinese-Text-Classification-Pytorch” title=“原作者链接”>原作者链接</a>
@@ -6,6 +7,7 @@
 我利用原作者的项目训练好模型，将模型预测结果使用GUI进行输出。模型预测准确度相对较高。
 GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需要安装tensorboardX,numpy等库。
 推荐使用PyCharm打开项目，运行main.py即可。
+如果使用PyCharm，需要自行配置虚拟环境，具体环境需求，在下方有介绍，请参考。
 </br>
 注意：需要自行在saved_dict目录下放置各个模型的.ckpt文件，软件才可以正常运行。
 
@@ -20,6 +22,8 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 <img src="Graphs/Classify.png" alt="Classify" width=600px height=250px/>
 
 ## 模型性能
+
+***
 
 ### Batch-Size
 
@@ -41,6 +45,8 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 
 <img src="Graphs/Drop_Out_Loss.png" alt="Batch_Size_Loss" width=470px height=340px>
 
+***
+
 ### Random Seed
 
 #### Random-Seed Accuracy
@@ -51,24 +57,40 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 
 <img src="Graphs/Random_Seed_Loss.png" alt="Batch_Size_Loss" width=470px height=340px>
 
-### 项目中所使用的参数已是作者所测试的最佳值，模型表现为我所测试的最佳状态。
+***
+
+#### 项目中所使用的参数已是作者所测试的最佳值，模型表现为我所测试的最佳状态。
 
 ## 训练及运行环境
 python 3.8<br>
 tensorboardX<br>
 tdqm<br>
 pytorch 1.1<br>
-PyQt5<br>
+PyQt5(注意不是PyQt6或PySide6)<br>
 sklearn<br>
+numpy<br>
+
+## 训练环境安装方法<br>
+
+`pip install tensorboardX`<br>
+`pip install tqdm`<br>
+`pip install numpy`<br>
+`pip install pyqt5`<br>
+`pip install scikit-learn`<br>
+`pip install torch`<br>
+
+*注意⚠️torch版本应在PyTorch官网查看对应CUDA版本的合适版本，具体安装命令需根据官网进行安装，官网如下:*<br>
+
+<a href="https://pytorch.org" title="PyTorch官网">PyTorch官网链接</a>
 
 ## 模型训练方法<br>
-`python run.py —model TextCNN #训练TextCNN模型的方法`<br>
-`python run.py —model TextRNN #训练TextCNN模型的方法`<br>
-`python run.py —model TextRCNN #训练TextCNN模型的方法`<br>
-`python run.py —model FastText #训练TextCNN模型的方法`<br>
-`python run.py —model TextRNN_Att #训练TextCNN模型的方法`<br>
-`python run.py —model DPCNN #训练TextCNN模型的方法`<br>
-`python run.py —model Transformer #训练TextCNN模型的方法`<br>
+`python run.py —model TextCNN       #训练TextCNN模型的方法`<br>
+`python run.py —model TextRNN       #训练TextCNN模型的方法`<br>
+`python run.py —model TextRCNN      #训练TextCNN模型的方法`<br>
+`python run.py —model FastText      #训练TextCNN模型的方法`<br>
+`python run.py —model TextRNN_Att   #训练TextCNN模型的方法`<br>
+`python run.py —model DPCNN         #训练TextCNN模型的方法`<br>
+`python run.py —model Transformer   #训练TextCNN模型的方法`<br>
 <br>
 
 ## 使用说明
@@ -78,6 +100,8 @@ sklearn<br>
 <li>打开main.py，使用IDE或python命令即可运行，出现GUI界面</li>
 <li>如果程序出现bug，请发issues，在看到后会及时改正</li>
 </ul>
+
+## 信息
 
 ### 上传日期：2024年11月25日 22:50
 
