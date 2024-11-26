@@ -1,6 +1,8 @@
 # ChineseTextClassificationGUI
 
-## 程序参考GitHub开源项目：
+##介绍
+
+程序参考GitHub开源项目：https://github.com/649453932/Chinese-Text-Classification-Pytorch<br>
 
 <a href=“https://github.com/649453932/Chinese-Text-Classification-Pytorch” title=“原作者链接”>原作者链接</a>
 
@@ -35,6 +37,8 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 
 <img src="Graphs/Batch_Size_Loss.png" alt="Batch_Size_Loss" width=470px height=340px>
 
+***
+
 ### Drop Out
 
 #### Drop-Out Accuracy
@@ -61,6 +65,9 @@ GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需�
 
 #### 项目中所使用的参数已是作者所测试的最佳值，模型表现为我所测试的最佳状态。
 
+***
+
+<br>
 ## 训练及运行环境
 python 3.8<br>
 tensorboardX<br>
