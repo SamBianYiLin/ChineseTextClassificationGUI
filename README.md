@@ -1,5 +1,6 @@
 # ChineseTextClassificationGUI
-## 程序参考GitHub开源项目：<a href=“https://github.com/649453932/Chinese-Text-Classification-Pytorch” title=“原作者链接”>原作者链接</a>
+## 程序参考GitHub开源项目：
+<a href=“https://github.com/649453932/Chinese-Text-Classification-Pytorch” title=“原作者链接”>原作者链接</a>
 
 我利用原作者的项目训练好模型，将模型预测结果使用GUI进行输出。模型预测准确度相对较高。
 GUI页面采用PyQt5进行编写，因此需要有PyQt5的库文件，并且需要安装tensorboardX,numpy等库。
