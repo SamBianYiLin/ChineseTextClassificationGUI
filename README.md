@@ -1,6 +1,6 @@
 # ChineseTextClassificationGUI
 
-##介绍
+## 介绍
 
 程序参考GitHub开源项目：https://github.com/649453932/Chinese-Text-Classification-Pytorch<br>
 
