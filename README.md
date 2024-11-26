@@ -91,7 +91,6 @@ numpy<br>
 `pip install torch`<br>
 
 **注意⚠️torch版本应在PyTorch官网查看对应CUDA版本的合适版本，具体安装命令需根据官网进行安装，官网链接:**
-
 <a href="https://pytorch.org" title="PyTorch官网">PyTorch官网链接</a>
 
 ## 模型训练方法<br>
