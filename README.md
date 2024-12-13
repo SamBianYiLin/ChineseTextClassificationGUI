@@ -99,7 +99,7 @@ pip install torch
 小提示：
 
 <ul>
-    <li>如果是在P有Charm等IDE中，则直接打开IDE中对应的命令行窗口，按需训练模型即可</li>
+    <li>如果是在PyCharm等IDE中，则直接打开IDE中对应的命令行窗口，按需训练模型即可</li>
     <li>如果是使用IDLE，则需要进入项目的目录中，Windows右键进入命令提示符进行训练，Linux直接在CLI中进行目录切换，直接训练即可</li>
 </ul>
 
