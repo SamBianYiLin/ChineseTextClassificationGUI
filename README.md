@@ -104,12 +104,12 @@ pip install torch
 </ul>
 
 `python run.py —model TextCNN #训练TextCNN模型的方法`<br><br>
-`python run.py —model TextRNN #训练TextCNN模型的方法`<br><br>
-`python run.py —model TextRCNN #训练TextCNN模型的方法`<br><br>
-`python run.py —model FastText #训练TextCNN模型的方法`<br><br>
-`python run.py —model TextRNN_Att #训练TextCNN模型的方法`<br><br>
-`python run.py —model DPCNN #训练TextCNN模型的方法`<br><br>
-`python run.py —model Transformer #训练TextCNN模型的方法`<br>
+`python run.py —model TextRNN #训练TextRNN模型的方法`<br><br>
+`python run.py —model TextRCNN #训练TextRCNN模型的方法`<br><br>
+`python run.py —model FastText #训练FastText模型的方法`<br><br>
+`python run.py —model TextRNN_Att #训练TextRNN_Att模型的方法`<br><br>
+`python run.py —model DPCNN #训练DPCNN模型的方法`<br><br>
+`python run.py —model Transformer #训练Transformer模型的方法`<br>
 <br>
 
 ## 使用说明
